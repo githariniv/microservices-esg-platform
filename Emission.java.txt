@@ -1,11 +1,9 @@
-@Entity
 public class Emission {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String companyName;
     private double carbonEmission;
     private double energyUsage;
-    private LocalDate reportDate;
-    // Getters & Setters
+    private String reportDate; // YYYY-MM-DD
+
+    // Getters and Setters
 }

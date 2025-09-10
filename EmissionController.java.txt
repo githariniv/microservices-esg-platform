@@ -1,0 +1,25 @@
+import java.util.List;
+
+public class EmissionController {
+
+    // Dummy methods to demonstrate CRUD
+    public List<Emission> getAllEmissions() {
+        return List.of();
+    }
+
+    public Emission getEmission(Long id) {
+        return new Emission();
+    }
+
+    public String createEmission(Emission e) {
+        return "Created";
+    }
+
+    public String updateEmission(Long id, Emission e) {
+        return "Updated";
+    }
+
+    public String deleteEmission(Long id) {
+        return "Deleted";
+    }
+}
